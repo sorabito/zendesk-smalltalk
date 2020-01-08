@@ -11,6 +11,6 @@ create: ticketContents client: client onErrorCallback: onErrorCallback
 	[ response := client httpPost: self resourceCreationUrl contents: contents ]
 		on: NetworkError
 		do: [ :ex |
-			onErrorCallback value.
+			onErrorCallback value: ex.
 		]
 	

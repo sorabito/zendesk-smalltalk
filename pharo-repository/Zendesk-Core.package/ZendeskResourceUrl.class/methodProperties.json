@@ -1,8 +1,11 @@
 {
-	"class" : {
-		"baseUrl" : "QuentinPlessis 10/24/2016 18:06" },
 	"instance" : {
+		"defaultBaseUrl" : "QuentinPlessis 10/24/2016 18:10",
 		"baseUrl" : "QuentinPlessis 10/24/2016 17:53",
 		"baseUrl:" : "QuentinPlessis 10/24/2016 17:53",
-		"defaultBaseUrl" : "QuentinPlessis 10/24/2016 18:10",
-		"settings" : "QuentinPlessis 10/24/2016 17:53" } }
+		"settings" : "QuentinPlessis 10/24/2016 17:53"
+	},
+	"class" : {
+		"baseUrl" : "QuentinPlessis 10/24/2016 18:06"
+	}
+}
