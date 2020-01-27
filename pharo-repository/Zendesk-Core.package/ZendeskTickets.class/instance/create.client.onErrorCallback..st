@@ -12,5 +12,6 @@ create: ticketContents client: client onErrorCallback: onErrorCallback
 		on: NetworkError
 		do: [ :ex |
 			onErrorCallback value: ex.
-		]
+		].
 	
+	^ response
