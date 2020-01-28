@@ -5,7 +5,7 @@ http: methodString uri: uriString json: contentsJson
 	request := self createRequest.
 	request method: methodString.
 	request url: uriString.
-	contentsJson isEmptyOrNil ifFalse:[ request entity: ((ZnEntity with: contentsJson asString) contentType: 'application/json') ].
+	contentsJson isEmptyOrNil ifFalse:[ request entity: (ZnStringEntity json: contentsJson asString) ].
 	
 	self client request: request.
 	client execute.
