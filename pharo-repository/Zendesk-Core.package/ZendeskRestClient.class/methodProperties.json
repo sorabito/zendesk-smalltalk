@@ -2,11 +2,11 @@
 	"instance" : {
 		"createRequest" : "QuentinPlessis 10/24/2016 18:15",
 		"defaultClient" : "QuentinPlessis 10/24/2016 17:22",
-		"http:uri:contents:" : "KazunoriUeda 1/27/2020 13:48",
 		"client" : "QuentinPlessis 10/24/2016 17:36",
-		"httpPost:contents:" : "KazunoriUeda 1/27/2020 13:49",
-		"httpPut:contents:" : "KazunoriUeda 1/27/2020 13:49",
-		"httpGet:" : "KazunoriUeda 1/27/2020 13:50"
+		"http:uri:json:" : "KazunoriUeda 1/28/2020 11:05",
+		"httpPost:json:" : "KazunoriUeda 1/28/2020 11:06",
+		"httpPut:json:" : "KazunoriUeda 1/28/2020 11:08",
+		"httpGet:" : "KazunoriUeda 1/28/2020 11:05"
 	},
 	"class" : {
 		"initialize" : "QuentinPlessis 10/24/2016 17:44",

@@ -1,3 +1,3 @@
 http-methods
-httpGet: aUri
-	^ self http: #GET uri: aUri contents: nil
+httpGet: uriString
+	^ self http: #GET uri: uriString json: nil

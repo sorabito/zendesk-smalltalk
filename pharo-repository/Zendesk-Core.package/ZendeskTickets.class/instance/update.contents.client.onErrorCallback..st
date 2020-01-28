@@ -5,7 +5,7 @@ update: ticketId contents: ticketContents client: client onErrorCallback: onErro
 	contents := NeoJSONObject new.
 	contents at: 'ticket' put: ticketContents.
 	
-	[ response := client httpPut: (self resourceUpdateUrl: ticketId) contents: contents ]
+	[ response := client httpPut: (self resourceUpdateUrl: ticketId) json: contents ]
 		on: NetworkError
 		do: [ :ex |
 			onErrorCallback value: ex.
