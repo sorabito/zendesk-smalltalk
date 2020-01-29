@@ -1,11 +1,3 @@
 http-methods
-httpGet: aUri
-	| request |
-	
-	request := self createRequest.
-	request method: #GET.
-	request url: aUri.
-	
-	self client request: request.
-	client execute.
-	^ client response.
+httpGet: uriString
+	^ self http: #GET uri: uriString json: nil

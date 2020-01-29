@@ -3,8 +3,10 @@
 		"createRequest" : "QuentinPlessis 10/24/2016 18:15",
 		"defaultClient" : "QuentinPlessis 10/24/2016 17:22",
 		"client" : "QuentinPlessis 10/24/2016 17:36",
-		"httpPost:contents:" : "QuentinPlessis 10/24/2016 18:37",
-		"httpGet:" : "QuentinPlessis 10/25/2016 09:17"
+		"http:uri:json:" : "KazunoriUeda 1/28/2020 17:44",
+		"httpPost:json:" : "KazunoriUeda 1/28/2020 11:06",
+		"httpPut:json:" : "KazunoriUeda 1/28/2020 11:08",
+		"httpGet:" : "KazunoriUeda 1/28/2020 11:05"
 	},
 	"class" : {
 		"initialize" : "QuentinPlessis 10/24/2016 17:44",

@@ -8,9 +8,10 @@ create: ticketContents client: client onErrorCallback: onErrorCallback
 	ZendeskSettings default deployMode = 'development' ifTrue: [
 		ticketContents at: 'subject' put: '[Test] ',(ticketContents at: 'subject') ].
 	
-	[ response := client httpPost: self resourceCreationUrl contents: contents ]
+	[ response := client httpPost: self resourceCreationUrl json: contents ]
 		on: NetworkError
 		do: [ :ex |
 			onErrorCallback value: ex.
-		]
+		].
 	
+	^ response
